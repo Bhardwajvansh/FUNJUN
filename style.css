@@ -360,6 +360,12 @@ pre {
 .col-4{
     flex: 25%;
     padding: 0 2rem;
+    color: var(--color-light);
+}
+.col-4 p a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-light);
 }
 .footer-text{
     text-align: center;
