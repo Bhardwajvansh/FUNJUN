@@ -14,8 +14,10 @@ document.getElementById("nav").addEventListener("click", () => {
 const changebg = () => {
   if (window.scrollY >= 40) {
     document.getElementById("navbar").style.background = "#d7a85f";
-  } else {
+    document.getElementById('header').style.display="none";
+} else {
     document.getElementById("navbar").style.background = "transparent";
+    document.getElementById('header').style.display="block";
   }
 };
 
