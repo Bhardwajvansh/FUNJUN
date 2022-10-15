@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FUNCSION JUNCSION</title>
+    <!-- fontawesom -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,6 +37,9 @@
                         <li>
                             <a href="#contact">Contact US</a>
                         </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <i id="nav" class="fa-solid fa-bars"></i>
@@ -45,14 +51,14 @@
     <div id="home">
         <div class="bg">
             <div class="container container_home">
-                <div class="left">
+                <div data-aos="fade-up" class="left">
                     <h1>Plan Your Event With Us!</h1>
                     <div class="btns">
                         <a class="btn1" href="#signup">Sign up</a>
                         <a class="btn2" href="#login">Log in</a>
                     </div>
                 </div>
-                <div class="right">
+                <div data-aos="fade-up" class="right">
                     <img src="./Assets/glass.png" alt="" />
                 </div>
             </div>
@@ -103,7 +109,7 @@
             <h1>Ideas</h1>
             <div class="container-idea">
                 <!-- party -->
-                <div id="party">
+                <div data-aos-easing="ease-in-out" data-aos="fade-up" id="party">
                     <div class="main-container">
                         <a href="#">
                             <img src="./Assets/birthday.jpg" alt="img" />
@@ -120,7 +126,7 @@
                     </div>
                 </div>
                 <!-- party -->
-                <div id="party">
+                <div data-aos-easing="ease-in-out" data-aos="fade-up" id="party">
                     <div class="main-container">
                         <a href="#">
                             <img src="./Assets/event.jpg" alt="img" />
@@ -137,7 +143,7 @@
                     </div>
                 </div>
                 <!-- party -->
-                <div id="party">
+                <div data-aos-easing="ease-in-out" data-aos="fade-up" id="party">
                     <div class="main-container">
                         <a href="#">
                             <img src="./Assets/balloon.jpg" alt="img" />
@@ -154,7 +160,7 @@
                     </div>
                 </div>
                 <!-- party -->
-                <div id="party">
+                <div data-aos-easing="ease-in-out" data-aos="fade-up" id="party">
                     <div class="main-container">
                         <a href="#">
                             <img src="./Assets/anniversary.jpg" alt="img" />
@@ -172,7 +178,7 @@
                     </div>
                 </div>
                 <!-- party -->
-                <div id="party">
+                <div data-aos-easing="ease-in-out" data-aos="fade-up" id="party">
                     <div class="main-container">
                         <a href="#">
                             <img src="./Assets/wedding.jpg" alt="img" />
@@ -277,6 +283,11 @@
 
 
     <script src="app.js"></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
